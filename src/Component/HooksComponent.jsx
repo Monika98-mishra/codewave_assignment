@@ -3,7 +3,7 @@ import DisplayMovie from './DisplayMovie.jsx';
 
 
 
-const url = `http://www.omdbapi.com/?apikey=230afcff&s=Marvel&type=movie`;
+const url = `https://www.omdbapi.com/?apikey=230afcff&s=Marvel&type=movie`;
 
 function Hooks() {
     const [movie, setmovie] = useState([]);
