@@ -1,0 +1,38 @@
+.card {
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.14);
+    flex: 0 0 20%;
+    border-radius: 6px;
+    margin: 20px;
+    padding: 20px;
+    
+  }
+ .cards {
+    flex: 10%;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+  }
+  @media (max-width: 1200px) {
+    .card {
+      flex: 0 0 27%;
+    }
+  }
+  
+  @media (max-width: 991px) {
+    .card {
+      flex: 0 0 42%;
+    }
+  }
+  .titlebar{
+      background-color: black;
+      display: block;
+      color: aliceblue;
+      padding-left: 16;
+      height:40%!important;
+
+  }
+  h4 a{
+    margin: 15px 0;
+    font-weight: 600;
+    text-decoration: none;
+  }
