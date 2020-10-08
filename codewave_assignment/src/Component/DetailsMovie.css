@@ -1,0 +1,20 @@
+.cards {
+    flex: 0% ;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+  }
+  .card {
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.14);
+    flex:10%;
+    border-radius: 6px;
+    margin: 20px;
+    padding: 20px;
+  }
+  .back_button{
+    float: left;
+  }
+  .back_button_style{
+    background-color: blue;
+    color: cornsilk;
+  }
