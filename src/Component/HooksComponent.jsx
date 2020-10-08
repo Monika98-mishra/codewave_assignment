@@ -2,6 +2,9 @@ import React, { useState, useEffect } from 'react';
 import DisplayMovie from './DisplayMovie.jsx';
 
 
+
+const url = `https://www.omdbapi.com/?apikey=230afcff&s=Marvel&type=movie`;
+
 function Hooks() {
     const [movie, setmovie] = useState([]);
     const [page, setpage] = useState(1);

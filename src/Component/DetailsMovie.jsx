@@ -11,7 +11,7 @@ function DetailsMovie(props) {
     }, [])
 
     const getSingleData = (id) => {
-        const url = `http://www.omdbapi.com/?i=${id}&apikey=230afcff`;
+        const url = `https://www.omdbapi.com/?i=${id}&apikey=230afcff`;
         fetch(url)
             .then((res) => res.json())
             .then((data) => {
