@@ -16,7 +16,7 @@ function Hooks() {
     }, [search, page]);
  
     const getResult = async () => {
-        const url = `http://www.omdbapi.com/?apikey=230afcff&s=${search}&type=movie&page=${page}`;
+        const url = `https://www.omdbapi.com/?apikey=230afcff&s=${search}&type=movie&page=${page}`;
         await fetch(url)
             .then((res) => res.json())
             .then((data) => {
