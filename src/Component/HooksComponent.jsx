@@ -3,7 +3,7 @@ import DisplayMovie from './DisplayMovie.jsx';
 
 
 
-const url = `https://www.omdbapi.com/?apikey=230afcff&s=Marvel&type=movie`;
+
 
 function Hooks() {
     const [movie, setmovie] = useState([]);
@@ -22,7 +22,7 @@ function Hooks() {
             .then((data) => {
                 if(data.Response == "True") {
                     setmovie([...movie, ...data.Search]);
-                    console.log(Math.ceil(Number(data.totalResults) / 10));
+                    //console.log(Math.ceil(Number(data.totalResults) / 10));
                     setTotalpages(Math.ceil(Number(data.totalResults) / 10));
                 } else {
                     setmovie([]);
